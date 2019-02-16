@@ -46,4 +46,9 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+<<<<<<< HEAD
+=======
+app.set('port', process.env.PORT || 3000);
+
+>>>>>>> 2/14/2019
 module.exports = app;

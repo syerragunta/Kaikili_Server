@@ -1,1 +1,10 @@
+<<<<<<< HEAD
 "dbUrl": "mongodb://root:kaikili123@47.222.45.28:27017/test",
+=======
+"dbUrl": "mongodb://root:kaikili123@47.222.45.28:27017/test",
+
+
+"mongodb": "^2.2.14",
+
+ "dbUrl": "mongodb://root@198.211.109.120:27017/",
+>>>>>>> 2/14/2019

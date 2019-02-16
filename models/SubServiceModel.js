@@ -47,6 +47,10 @@ var SubService = {
     getAllAddService: function (id, callback) {
       //  console.log("call get all service");
         mongo.connect(config.dbUrl, function (err, db) {
+<<<<<<< HEAD
+=======
+            console.log(config.dbName);
+>>>>>>> 2/14/2019
             var collection = db.db(config.dbName).collection(config.collections.add_services);
             collection.find({}).toArray(function (err, docs) {
                 if (err) {
